@@ -1,17 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
-  <title>Vanilla JavaScript App</title>
+  <title>Farmacia Veterinaria PetSalud</title>
 </head>
 
 <body>
+  <header>
+    <div class="logo">
+      <img src="https://cdn-icons-png.flaticon.com/512/616/616408.png" alt="Logo PetSalud" height="60">
+      <h1>PetSalud</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#productos">Productos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
   <main>
-    <h1>Vanilla JavaScript App</h1>
+    <section class="hero">
+      <h2>Farmacia veterinaria especializada en mascotas</h2>
+      <p>Medicamentos, productos y asesoría para el bienestar de tus mascotas.</p>
+    </section>
+    <section id="servicios">
+      <h3>Servicios</h3>
+      <ul class="servicios-lista">
+        <li>Venta de medicamentos veterinarios</li>
+        <li>Asesoría farmacéutica especializada</li>
+        <li>Productos de higiene y cuidado</li>
+        <li>Alimentos y suplementos</li>
+      </ul>
+    </section>
+    <section id="productos">
+      <h3>Productos destacados</h3>
+      <div class="productos-grid">
+        <div class="producto">
+          <img src="https://cdn-icons-png.flaticon.com/512/616/616408.png" alt="Medicamento para perros">
+          <h4>Antiparasitario Canino</h4>
+          <p>Protege a tu perro de parásitos internos y externos.</p>
+        </div>
+        <div class="producto">
+          <img src="https://cdn-icons-png.flaticon.com/512/616/616408.png" alt="Vitaminas para gatos">
+          <h4>Vitaminas Felinas</h4>
+          <p>Refuerza la salud y vitalidad de tu gato.</p>
+        </div>
+        <div class="producto">
+          <img src="https://cdn-icons-png.flaticon.com/512/616/616408.png" alt="Shampoo para mascotas">
+          <h4>Shampoo Hipoalergénico</h4>
+          <p>Limpieza suave para pieles sensibles.</p>
+        </div>
+      </div>
+    </section>
+    <section id="contacto">
+      <h3>Contacto</h3>
+      <form class="contacto-form">
+        <input type="text" placeholder="Nombre" required>
+        <input type="email" placeholder="Correo electrónico" required>
+        <textarea placeholder="Mensaje" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+      <div class="info-contacto">
+        <p><strong>Dirección:</strong> Calle 123, Mérida, Yucatán</p>
+        <p><strong>Teléfono:</strong> 999-123-4567</p>
+        <p><strong>Email:</strong> contacto@petsalud.com</p>
+      </div>
+    </section>
   </main>
+  <footer>
+    <p>&copy; 2025 PetSalud. Todos los derechos reservados.</p>
+  </footer>
 </body>
 
 </html>
